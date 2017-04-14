@@ -11,7 +11,7 @@ app.get('/whoami', (req, res) => {
     ipaddress: req.ip,
     language: accepts(req).languages()[0],
     operatingsystem: os.type()
-  })
+  });
 });
 
 app.listen(3000);
