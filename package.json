@@ -1,0 +1,17 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "accepts": "^1.3.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "os": "^0.1.1"
+  }
+}
